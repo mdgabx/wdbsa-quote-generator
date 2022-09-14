@@ -8,7 +8,7 @@ class Home extends Component{
                 <div className="container py-4 d-flex" id="quote-box" >
                     <p id="text" className="text-center">" text quote "</p>
                     <hr />
-                    <p id="author">- Author</p>
+                    <p id="author">- test Author</p>
                     <button id="new-quote">New Quote</button>
                 </div> 
             </div>
