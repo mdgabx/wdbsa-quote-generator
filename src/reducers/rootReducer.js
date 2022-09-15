@@ -1,5 +1,5 @@
 let initState = {
-    quotes: {}
+    quotes: []
 }
 
 /* fetch the data from the quotes mock api */
