@@ -12,7 +12,6 @@ body {
 .home {
     height: 100vh;
     background: linear-gradient(to top right, $red, $yellow);
-    flex-direction: column;
 
     h1 {
         color: $white;
@@ -21,17 +20,21 @@ body {
     #quote-box {
         background: $white;
         height: 300px;
-        width: 60%;
         border-radius: 10px;
         color: $black;
-        align-items: stretch;
-        justify-content: center;
-        flex-direction: column;
     }
 
     #text {
+        height: 150px;
+    }
+
+    .group-btn {
         align-items: stretch;
-        height: 100vh;
+        justify-content: space-evenly;
+
+        button, a {
+            width: 30%;
+        }
     }
 }
 
