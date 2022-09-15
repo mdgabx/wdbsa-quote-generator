@@ -15,7 +15,7 @@ class Home extends Component{
                             <p id="author" className="m-auto text-center">- test Author</p>
                             <div className="row group-btn mt-2 py-2">
                                 <button className="btn btn-primary text-center w-20" id="new-quote">New Quote</button>
-                                <a className="btn btn-primary w-20" href="/twitter.com/intent/tweet" id="tweet-quote">
+                                <a className="btn btn-primary w-20" href="/twitter.com/intent/tweet" alt="twitter quote" target="_blank" id="tweet-quote">
                                     <TwitterIcon />
                                </a>
                             </div>         
